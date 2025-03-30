@@ -62,7 +62,7 @@ The project is organized into the following directories and key files:
   - `portfolio6.png`: Image for skills section.
 
 - `portfolio.html`: The main HTML file for the portfolio.
-- `resume_ghanshyam.pdf`: My resume.
+- `hesbon Mangabo Makori.pdf`: My resume.
 - `README.md`: This documentation file you're currently reading.
 
 ## Author
