@@ -15,13 +15,6 @@ This portfolio project showcases my web development skills, featuring a responsi
 - Projects section to showcase my work.
 - Contact Form for easy communication.
 
-## Screenshots
-<img width="949" alt="Screenshot 2023-10-15 104750" src="https://github.com/gsrai2002/Portfolio/assets/96683268/6b3a063c-4967-4e6b-9986-b4ced1b90063">
-<img width="946" alt="Screenshot 2023-10-15 105215" src="https://github.com/gsrai2002/Portfolio/assets/96683268/5e32eab4-a2e2-48aa-8951-1405e18d81ad">
-<img width="938" alt="Screenshot 2023-10-15 105319" src="https://github.com/gsrai2002/Portfolio/assets/96683268/dc2c732f-5a4d-4002-a147-c1ec9bd9a7bb">
-<img width="940" alt="Screenshot 2023-10-15 105357" src="https://github.com/gsrai2002/Portfolio/assets/96683268/e9213320-5c53-4e00-be4f-6b8185283343">
-<img width="944" alt="Screenshot 2023-10-15 105437" src="https://github.com/gsrai2002/Portfolio/assets/96683268/dd208d09-de00-42e9-9f83-b08557db1495">
-
 ## Usage
 
 1. **Homepage**: When you open the project's main `portfolio.html` file in a web browser, you will be directed to the homepage of the portfolio.
