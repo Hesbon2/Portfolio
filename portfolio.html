@@ -196,15 +196,5 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="Javascript/script.js"></script>
-    <script>
-        function resetPigeonFlight() {
-            const pigeon = document.querySelector('.pigeon-wrapper');
-            pigeon.style.animation = 'none';
-            setTimeout(() => {
-                pigeon.style.animation = 'flyAcross 8s linear infinite, bob 2s ease-in-out infinite';
-            }, Math.random() * 5000);
-        }
-        setInterval(resetPigeonFlight, 12000);
-    </script>
 </body>
 </html>

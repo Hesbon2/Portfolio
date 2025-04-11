@@ -6,7 +6,7 @@
     z-index: 1000; /* High z-index to appear above all content */
     pointer-events: none; /* Prevent interference with clicks */
     animation: 
-        flyAcross 12s linear infinite, /* Slower flight for elegance */
+        flyAcross 8s linear infinite, /* Slower flight for elegance */
         bob 2s ease-in-out infinite; /* Gentle up-down bobbing */
 }
 .pigeon {
