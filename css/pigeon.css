@@ -1,0 +1,95 @@
+/* Pigeon animation styles */
+.pigeon-wrapper {
+    position: fixed; /* Fixed to stay in front regardless of scrolling */
+    left: -150px; /* Start further off-screen to account for text width */
+    top: 15%; /* Position near top, adjust as needed */
+    z-index: 1000; /* High z-index to appear above all content */
+    pointer-events: none; /* Prevent interference with clicks */
+    animation: 
+        flyAcross 12s linear infinite, /* Slower flight for elegance */
+        bob 2s ease-in-out infinite; /* Gentle up-down bobbing */
+}
+.pigeon {
+    width: 20vw; /* Adjust size to fit your design */
+    height: 40vw;
+    background: url('../images/pigeon.gif') no-repeat center center;
+    background-size: contain;
+    position: fixed; /* Fixed to stay in front regardless of scrolling */
+    left: -100px; /* Start off-screen */
+    top: 10%; /* Position near top, adjust as needed */
+    z-index: 1000; /* High z-index to appear above all content */
+    pointer-events: none; /* Prevent interference with clicks */
+    /*filter: hue-rotate(200deg);*/
+    /*animation: 
+        flyAcross 12s linear infinite, /* Slower flight for elegance */
+        /*bob 2s ease-in-out infinite; /* Gentle up-down bobbing */
+}
+
+/* Text styles */
+.pigeon-text {
+    display: block;
+    position: absolute;
+    top: 25vw; /* Just below pigeon’s feet (80px height + 2px gap) */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally under pigeon */
+    color: #fff; /* White for glow contrast */
+    font-family: 'Poppins', sans-serif; /* Match portfolio font */
+    font-size: 1.2rem; /* Larger for solid look */
+    font-weight: 700; /* Bolder for solidity */
+    white-space: nowrap; /* Prevent wrapping */
+    text-shadow: 
+        3PX 3px 6px rgba(0, 0, 0, 0.5), /* Depth shadow */
+        2px 2px 4px rgba(0, 0, 0, 0.4), /* 3D offset */
+        -2px -2px 4px rgba(0, 0, 0, 0.4), /* 3D balance */
+        0 0 10px rgba(0, 191, 255, 0.8), /* Glow (bluish to match pigeon) */
+        0 0 20px rgba(0, 191, 255, 0.6); /* Glow spread */
+    animation: glowPulse 2s ease-in-out infinite; /* Pulsing glow */
+}
+
+/* Animation for flying across the screen */
+@keyframes flyAcross {
+    0% {
+        left: -100px;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        left: 100vw;
+        opacity: 0;
+    }
+}
+
+/* Animation for gentle bobbing */
+@keyframes bob {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Animation for glowing pulse */
+@keyframes glowPulse {
+    0%, 100% {
+        text-shadow: 
+            0 2px 4px rgba(0, 0, 0, 0.5),
+            2px 2px 4px rgba(0, 0, 0, 0.4),
+            -2px -2px 4px rgba(0, 0, 0, 0.4),
+            0 0 10px rgba(81, 255, 0, 0.8),
+            0 0 20px rgba(255, 204, 0, 0.6);
+    }
+    50% {
+        text-shadow: 
+            0 2px 4px rgba(0, 0, 0, 0.5),
+            2px 2px 4px rgba(0, 0, 0, 0.4),
+            -2px -2px 4px rgba(0, 0, 0, 0.4),
+            0 0 15px rgb(0, 229, 255),
+            0 0 30px rgba(0, 153, 255, 0.8);
+    }
+}
