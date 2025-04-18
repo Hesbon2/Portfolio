@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import GitHubIcon from '@mui/icons-material/Github';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
