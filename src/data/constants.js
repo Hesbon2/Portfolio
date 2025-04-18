@@ -10,7 +10,7 @@ export const Bio = {
         "As a driven and adaptable professional, I thrive on challenges and continuously seek opportunities for growth. My passion for learning fuels my ability to quickly master new skills and technologies, allowing me to deliver innovative solutions and exceed expectations. With a positive mindset and unwavering commitment to excellence, I approach each project as a chance to make a meaningful impact. My versatility, coupled with strong problem-solving skills, enables me to contribute effectively in dynamic environments and drive success in collaborative efforts.",
     github: "#",
     resume:
-        "https://drive.google.com/file/d/1hPbRUYE_fKWCgdVDl_Rv0DdwrbQgSFJf/view?usp=drive_link",
+        "#",
     linkedin: "#",
     twitter: "#",
     insta: "#",
