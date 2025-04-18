@@ -294,7 +294,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/itshirdeshk/Trimrr",
-        link: "https://trimrr-sable.vercel.app/",
+        link: "#",
     },
     {
         id: 1,
@@ -313,7 +313,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/itshirdeshk/Mystery-Messenger",
-        link: "https://mystery-messenger-six.vercel.app/",
+        link: "#",
     },
     {
         id: 2,
@@ -332,7 +332,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/itshirdeshk/Crypto-Vault",
-        link: "https://crypto-vault-self.vercel.app/",
+        link: "#",
     },
     {
         id: 3,
@@ -344,7 +344,7 @@ export const projects = [
         tags: ["React Js", "Node Js", "Express Js", "MongoDb", "Socket.io"],
         category: "web app",
         github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Chatting-Hub",
-        link: "https://chatting-hub.vercel.app/",
+        link: "#",
     },
     {
         id: 2,
@@ -360,7 +360,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/itshirdeshk/Pathfinding-Visualizer",
-        link: "https://pathfinding-visualizer-plum.vercel.app/",
+        link: "#",
     },
     {
         id: 4,
@@ -372,7 +372,7 @@ export const projects = [
         tags: ["Node Js", "EJS", "MongoDb"],
         category: "web app",
         github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Notes-Hub",
-        link: "https://notes-hub-ufwa.onrender.com/",
+        link: "#",
     },
     {
         id: 5,
@@ -384,7 +384,7 @@ export const projects = [
         tags: ["Node Js", "MongoDb", "Telegraf", "Gemini"],
         category: "bot app",
         github: "https://github.com/itshirdeshk/Socio-Bot",
-        link: "https://t.me/socio_xyz_bot",
+        link: "#",
     },
     {
         id: 6,
@@ -396,7 +396,7 @@ export const projects = [
         tags: ["React Js", "WebRTC", "WebSocket", "Socket.io"],
         category: "web app",
         github: "https://github.com/itshirdeshk/Backend-Practice/tree/main/WebRTC%20-%202",
-        link: "https://backend-practice-nine.vercel.app/",
+        link: "#",
     },
     {
         id: 7,
@@ -408,7 +408,7 @@ export const projects = [
         tags: ["EJS", "CSS", "Node Js", "WebSocket", "Socket.io"],
         category: "web app",
         github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Realtime-Tracker",
-        link: "https://realtime-tracker-76ek.onrender.com",
+        link: "#",
     },
     {
         id: 8,
@@ -420,7 +420,7 @@ export const projects = [
         tags: ["EJS", "CSS", "MongoDb", "Passport Js"],
         category: "web app",
         github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Pin-Lite",
-        link: "https://pin-lite.onrender.com/",
+        link: "#",
     },
     {
         id: 9,
