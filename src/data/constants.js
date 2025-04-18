@@ -215,7 +215,7 @@ export const experiences = [
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmXAeQf3EwFBzk7X695p73YCH8Lm2onldqoQ&s",
         role: "Brainwave Matrix Solutions",
         company: "Web Development Intern",
-        date: "Aug 2021 - Sep 2024",
+        date: "Aug 2024 - Sep 2024",
         desc: "Worked on different web development projects.",
         doc: "https://res.cloudinary.com/itshirdeshk/image/upload/v1726931908/Brainwave_hmif8n.jpg",
     },
