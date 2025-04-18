@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 import styled from 'styled-components';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import GithubIcon from '@mui/icons-material/Github';
+import GitHubIcon from '@mui/icons-material/Github';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -97,7 +98,7 @@ function Footer() {
                     <NavLink href="#education">Education</NavLink>
                 </Nav>
                 <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
                     <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
                     <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
                     <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
