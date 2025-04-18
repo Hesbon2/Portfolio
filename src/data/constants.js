@@ -294,7 +294,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/itshirdeshk/Trimrr",
-        link: "https://trimrr-sable.vercel.app/",
+        link: "#",
     },
     {
         id: 1,
@@ -408,7 +408,7 @@ export const projects = [
         tags: ["EJS", "CSS", "Node Js", "WebSocket", "Socket.io"],
         category: "web app",
         github: "https://github.com/itshirdeshk/Backend-Projects/tree/main/Realtime-Tracker",
-        link: "https://realtime-tracker-76ek.onrender.com",
+        link: "#",
     },
     {
         id: 8,
