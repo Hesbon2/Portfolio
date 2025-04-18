@@ -254,7 +254,7 @@ export const education = [
         img: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-1/327239736_909565013397533_5194028054791891638_n.png?stp=dst-png_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=yoArMrAJi-oQ7kNvwH5N3MY&_nc_oc=AdkYqtxjr_JmDOo1973Q5ZsktJydJs-UjcBXtpyAVnpcrLEnFagAcVpr2z7NKMfHVgHuWFM0faN-duZrWwZ3rLJ7&_nc_pt=5&_nc_zt=24&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=OZNnXcbmKUVYCrC1zwxycg&oh=00_AfGpA_herj64BzBCgxWNdjN3CMrdi9JNXEL6m5MZ5ACv4Q&oe=6807E3A1",
         school: "University of Eldoret",
         date: "Sep 2015 - Nov 2019",
-        grade: "8.0 CGPA",
+        grade: "Bachelors Degree",
         desc: "I pursued a Bachelor's degree in Informatics at University of Eldoret, Eldoret-Kenya. I did take Units in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
         degree: "Bachelor of Science - Informatics",
     },
